@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "interests",
+  "info": {
+    "singularName": "interest",
+    "pluralName": "interests",
+    "displayName": "Interest"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}
