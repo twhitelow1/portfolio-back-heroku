@@ -26,6 +26,12 @@
     },
     "company": {
       "type": "string"
+    },
+    "showOnResume": {
+      "type": "boolean"
+    },
+    "orderOnResume": {
+      "type": "integer"
     }
   }
 }

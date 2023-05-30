@@ -44,6 +44,16 @@
     },
     "tagline": {
       "type": "string"
+    },
+    "skills": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::skill.skill"
+    },
+    "certifications": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::certification.certification"
     }
   }
 }
